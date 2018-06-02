@@ -2,7 +2,7 @@
     session_start();
 		if	(isset($_POST["submit"])){
 			 include 'connect.inc';
-				$query="INSERT INTO itapdev.requestdatabase (division, contact, comment, requestedby, username, status, note, technician) 
+				$query="INSERT INTO requestdatabase (division, contact, comment, requestedby, username, status, note, technician) 
 					VALUES('$_POST[division]','$_POST[contact]','$_POST[comment]','$_POST[requestedby]','$_SESSION[username]','Pending','','')";
 				$is_query_successful=mysql_query($query);
 				if($is_query_successful)  

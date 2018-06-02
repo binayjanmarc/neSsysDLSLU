@@ -7,7 +7,7 @@
         $username=$_POST['username'];
         $password=$_POST['password'];
     
-        $query="SELECT * FROM itapdev.userdatabase WHERE username='$username' AND password='$password'";
+        $query="SELECT * FROM userdatabase WHERE username='$username' AND password='$password'";
         $result=mysql_query($query);
         $count=mysql_num_rows($result);
         if($count != 0)
