@@ -40,7 +40,7 @@
                 {
                     if(($Username==$username) && ($Password==$password))
                     {
-                        header('location:Home.php');
+                        header('location:ManageRequests.php');
                     }
                     else
                     {
@@ -62,7 +62,7 @@
                 {
                     if(($Username==$username) && ($Password==$password))
                     {
-                        header('location:Home.php');
+                        header('location:ManageRequests.php');
                     }
                     else
                     {
@@ -73,7 +73,7 @@
                 {
                     if(($Username==$username) && ($Password==$password))
                     {
-                        header('location:Home.php');
+                        header('location:ManageRequests.php');
                     }
                     else
                     {
